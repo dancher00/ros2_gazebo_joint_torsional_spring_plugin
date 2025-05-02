@@ -2,6 +2,8 @@
 
 A Gazebo plugin for ROS2 that adds torsional spring behavior to robot joints.
 
+Tested with Foxy
+
 ## Installation
 
 ```bash
