@@ -53,7 +53,7 @@ Add the plugin to your URDF model:
 
 If the spring doesn't work:
 
-1. Ensure the joint's `effort` limit is greater than zero
+1. Ensure the joint's `effort` and `velocity` limit is greater than zero
 2. Try increasing the `kx` value for a stronger spring
 3. Check that the plugin loads successfully (see Gazebo logs)
 4. Verify the joint name is correct
