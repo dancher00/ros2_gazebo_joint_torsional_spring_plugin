@@ -4,6 +4,15 @@ A Gazebo plugin for ROS2 that adds torsional spring behavior to robot joints.
 
 Tested with Foxy
 
+I know Gazebo has those built-in spring tags (`<springStiffness>` and stuff), but they didn't quite do what I needed (better spring behavior for my skatebord's bushings simulation). \
+
+This plugin:
+
+1. Actively calculates and applies forces every physics cycle - way more responsive
+2. Creates actual ROS2 nodes for each joint - proper integration with ROS2
+3. Works better for precise control than the standard Gazebo approach
+
+
 ## Installation
 
 ```bash
